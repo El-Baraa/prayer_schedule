@@ -10,16 +10,14 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
-body {
-    display: flex;
+h1 {
+  text-align: center;
+    font-size: 1.5rem;
+  display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-}
-h1 {
-  text-align: center;
-    font-size: 1.5rem;
 }
 .highlight {
     color: red;
