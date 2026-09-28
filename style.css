@@ -1,24 +1,32 @@
+/* إعدادات العناصر الأساسية وإلغاء الهوامش الافتراضية */
 * {
-  margin: 0px;
-  padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* توسيط المحتوى في منتصف الشاشة أفقياً ورأسياً */
 body {
-  font-family: sans-serif;
-  position: relative;
-}
-.container {
-  width: 1000px;
-  margin: 0 auto;
-}
-h1 {
-  text-align: center;
-    font-size: 1.5rem;
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* لون خلفية خفيف ومريح */
+    color: #333333;           /* لون النص الأساسي */
 }
+
+/* تنسيق النص الأساسي */
+h1 {
+    text-align: center;
+    font-size: 1.8rem;        /* حجم الخط */
+    font-weight: 500;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* لون احمر للجزء المحدد (التعديلات!) */
 .highlight {
-    color: red;
+    color: #e63946;           /* لون أحمر مميز */
+    font-weight: bold;
 }
